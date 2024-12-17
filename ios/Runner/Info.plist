@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to provide features such as temperature notifications.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location even when the app is in the background to enable reminders and location-based features.</string>
 </dict>
 </plist>
