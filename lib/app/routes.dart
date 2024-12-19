@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import '../features/home/home_page.dart';
+import '../pages/home_page.dart';
 
 class Routes {
   static const String home = '/home';
@@ -8,7 +8,7 @@ class Routes {
   static final List<GetPage> pages = [
     GetPage(
       name: home,
-      page: () => HomePage(),
+      page: () => const HomePage(),
     ),
   ];
 }

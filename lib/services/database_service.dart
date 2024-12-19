@@ -4,7 +4,7 @@ import 'package:sqflite/sqflite.dart';
 class DatabaseService {
   final onCreateSql = {
     'schedule':
-        'CREATE TABLE Schedules(id INTEGER PRIMARY KEY, hour INTEGER, minute INTEGER, altitude REAL, longitude REAL)',
+        'CREATE TABLE Schedules(id INTEGER PRIMARY KEY, month INTEGER, day INTEGER, hour INTEGER, minute INTEGER, latitude REAL, longitude REAL)',
   };
 
   Future<Database> getDatabase(String dbName) async {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 
-import '../features/home/home_binding.dart';
+import '../bindings/home_binding.dart';
 import 'routes.dart';
 
 class App extends StatelessWidget {
